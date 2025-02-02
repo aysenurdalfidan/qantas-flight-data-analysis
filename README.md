@@ -11,13 +11,12 @@ This project analyzes Qantas flight data to assess operational efficiency, on-ti
 ![Missing Data Heatmap](images/missing_data.png)
 
 ### 2️⃣ Estimated vs Actual In-Block Time (EIBT vs AIBT)
-- A scatter plot shows a strong correlation between **EIBT (Estimated In-Block Time)** and **AIBT (Actual In-Block Time)**, justifying the use of EIBT to fill missing AIBT values.
+- A scatter plot shows a strong correlation between **EIBT (Estimated In-Block Time)** and **AIBT (Actual In-Block Time)**.
 
 ![AIBT vs EIBT](images/aibt_vs_eibt.png)
 
 ### 3️⃣ Distribution of EIBT - AIBT Differences
 - The mean and median difference between **EIBT and AIBT** were calculated.
-- The distribution indicates that most of the time, AIBT is very close to EIBT, supporting the decision to use EIBT for imputation.
 
 ![EIBT - AIBT Differences](images/differences.png)
 
