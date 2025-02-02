@@ -41,10 +41,10 @@ This project analyzes Qantas flight data to assess operational efficiency, on-ti
   - Analyzed estimated vs actual performance with correlation plots.
 
 ## Key Takeaways
-✔ **Aircraft changes per day** were successfully analyzed.
-✔ **Departure and arrival performance** were visualized.
-✔ **Missing values were effectively handled** using estimated timestamps.
-✔ **Flight time distributions and delays were analyzed** for operational insights.
+**Aircraft changes per day** were successfully analyzed.
+**Departure and arrival performance** were visualized.
+**Missing values were effectively handled** using estimated timestamps.
+**Flight time distributions and delays were analyzed** for operational insights.
 
 
 ---
