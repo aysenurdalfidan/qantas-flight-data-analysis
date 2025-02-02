@@ -8,29 +8,29 @@ This project analyzes Qantas flight data to assess operational efficiency, on-ti
 - A heatmap was generated to visualize missing values across different features.
 - AIBT (Actual In-Block Time) had significant missing values, leading to the need for an imputation strategy.
 
-![Missing Data Heatmap](missing_data.png)
+![Missing Data Heatmap](images/missing_data.png)
 
 ### 2️⃣ Estimated vs Actual In-Block Time (EIBT vs AIBT)
 - A scatter plot shows a strong correlation between **EIBT (Estimated In-Block Time)** and **AIBT (Actual In-Block Time)**, justifying the use of EIBT to fill missing AIBT values.
 
-![AIBT vs EIBT](aibt_vs_eibt.png)
+![AIBT vs EIBT](images/aibt_vs_eibt.png)
 
 ### 3️⃣ Distribution of EIBT - AIBT Differences
 - The mean and median difference between **EIBT and AIBT** were calculated.
 - The distribution indicates that most of the time, AIBT is very close to EIBT, supporting the decision to use EIBT for imputation.
 
-![EIBT - AIBT Differences](differences.png)
+![EIBT - AIBT Differences](images/differences.png)
 
 ### 4️⃣ Estimated vs Actual Off-Block Time (EOBT vs AOBT)
 - Similar to in-block times, **EOBT (Estimated Off-Block Time)** and **AOBT (Actual Off-Block Time)** show a strong linear relationship.
 - This justifies using EOBT as a reference when analyzing off-block delays.
 
-![EOBT vs AOBT](eobt-aobt.png)
+![EOBT vs AOBT](images/eobt-aobt.png)
 
 ### 5️⃣ Missing AIBT by Destination
 - The majority of missing AIBT values were concentrated in key domestic airports (SYD, MEL, BNE, PER).
 
-![Missing AIBT by Destination](missing_aib_dest.png)
+![Missing AIBT by Destination](images/missing_aib_dest.png)
 
 ## Methods Used
 - **Data Cleaning & Preprocessing:**
